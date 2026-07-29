@@ -18,7 +18,7 @@ for i = 1:c-1   % i for column
         end
     end
 end
-disp('    .......After Gauss Elimination.......'); disp(Aug);
+disp('    .......After Gauss Elimination .......'); disp(Aug);
 
 %% Back Substitution
 x=zeros(r,1); % z=x(3), y=x(2), x=x(1)
